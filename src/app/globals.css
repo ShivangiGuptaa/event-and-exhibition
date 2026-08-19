@@ -147,7 +147,9 @@ a {
 
 .nav-links {
   display: flex;
-  gap: 2.5rem;
+  gap: 2rem;
+  flex: 1;
+  justify-content: flex-start;
 }
 
 .nav-links a {
@@ -162,14 +164,19 @@ a {
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: 'Cormorant Garamond', serif;
   color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1px;
 }
 
 .nav-right {
   display: flex;
   align-items: center;
+  flex: 1;
+  justify-content: flex-end;
 }
 .nav-right .btn-light {
   padding: 0.8rem 1.8rem;
